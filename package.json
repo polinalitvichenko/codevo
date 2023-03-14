@@ -1,0 +1,13 @@
+{
+  "author": {
+    "name": "Ogogo Academy",
+    "email": "ogogo@gmai.com",
+    "url": "https://github.com/toutEstCool/codevo"
+  },
+  "scripts": {
+    "start": "parcel index.html --open"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.3.1"
+  }
+}
