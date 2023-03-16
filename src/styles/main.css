@@ -3,3 +3,34 @@
 @import './normalize.css';
 @import './header.css';
 @import './variables.css';
+
+html {
+  font-size: calc(100vw / 1440 * 10);
+
+  /* font-size: 16px; */
+}
+
+@media screen and(max-width: 1024px) {
+  html {
+    font-size: calc (100vw / 768px * 10);
+  }
+}
+
+@media screen and(max-width: 768px) {
+  html {
+    font-size: calc (100vw / 500px * 10);
+  }
+}
+
+@media screen and(max-width: 500px) {
+  html {
+    font-size: calc (100vw / 360px * 10);
+  }
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: var(--black-color);
+  background-color: var(--white-color);
+}
